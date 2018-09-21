@@ -1,0 +1,10 @@
+Package: com.BandarHL.WAUnlimitedSend
+Name: WAUnlimitedSend
+Version: 1.1-2
+Description: send Unlimited Video in WhatsApp
+Section: Tweaks
+Depends: mobilesubstrate
+Priority: optional
+Architecture: iphoneos-arm
+Author: @BandarHL
+dev: @BandarHL
