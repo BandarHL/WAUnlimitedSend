@@ -9,6 +9,8 @@
 #import "FRPreferences.h"
 #import "FRPCell.h"
 #import "FRPSection.h"
+#import <SDWebImage/SDImageCache.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface FRPreferences ()
 
@@ -28,6 +30,7 @@
 - (instancetype)initTableWithSections:(NSArray *)sections {
     if (self = [super initWithStyle:UITableViewStyleGrouped]) {
         self.sections = sections;
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return self;
 }

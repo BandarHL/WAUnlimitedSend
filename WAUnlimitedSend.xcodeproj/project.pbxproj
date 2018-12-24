@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2721FAD10624D21867348006 /* libPods-WAUnlimitedSend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AF52EDF7DD5D4FD96B7ACF /* libPods-WAUnlimitedSend.a */; };
 		5038D561214FB3E300D0D692 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D560214FB3E300D0D692 /* UIKit.framework */; };
 		5038D563214FB3E300D0D692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D562214FB3E300D0D692 /* Foundation.framework */; };
 		5038D565214FB3E300D0D692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D564214FB3E300D0D692 /* CoreGraphics.framework */; };
@@ -61,7 +62,6 @@
 		5038D5DC214FB42400D0D692 /* FRPSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038D5BD214FB42400D0D692 /* FRPSwitchCell.h */; };
 		5038D5DD214FB42400D0D692 /* FRPValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5038D5BE214FB42400D0D692 /* FRPValueCell.m */; };
 		5038D5DE214FB42400D0D692 /* FRPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038D5BF214FB42400D0D692 /* FRPrefs.h */; };
-		5038D5E0214FB6D600D0D692 /* BHTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038D5DF214FB6D600D0D692 /* BHTableView.h */; };
 		5038D5E2214FB78300D0D692 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D5E1214FB78200D0D692 /* AudioToolbox.framework */; };
 		5038D5E4214FB78B00D0D692 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D5E3214FB78A00D0D692 /* MessageUI.framework */; };
 		5038D5E6214FB79200D0D692 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D5E5214FB79200D0D692 /* QuartzCore.framework */; };
@@ -77,9 +77,12 @@
 		5038D5FA214FB7E400D0D692 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D5F9214FB7E400D0D692 /* Social.framework */; };
 		5038D5FC214FB7EB00D0D692 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D5FB214FB7EB00D0D692 /* Accounts.framework */; };
 		5038D5FE214FB7F000D0D692 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5038D5FD214FB7F000D0D692 /* Twitter.framework */; };
+		50C055C521CD258300893F82 /* BHSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C055C421CD257500893F82 /* BHSettingViewController.h */; };
+		50C055C721CD259A00893F82 /* BHSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C055C621CD259A00893F82 /* BHSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47AF52EDF7DD5D4FD96B7ACF /* libPods-WAUnlimitedSend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WAUnlimitedSend.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5038D55D214FB3E300D0D692 /* WAUnlimitedSend.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WAUnlimitedSend.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		5038D560214FB3E300D0D692 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5038D562214FB3E300D0D692 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,7 +143,6 @@
 		5038D5BD214FB42400D0D692 /* FRPSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSwitchCell.h; sourceTree = "<group>"; };
 		5038D5BE214FB42400D0D692 /* FRPValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPValueCell.m; sourceTree = "<group>"; };
 		5038D5BF214FB42400D0D692 /* FRPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPrefs.h; sourceTree = "<group>"; };
-		5038D5DF214FB6D600D0D692 /* BHTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTableView.h; sourceTree = "<group>"; };
 		5038D5E1214FB78200D0D692 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5038D5E3214FB78A00D0D692 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5038D5E5214FB79200D0D692 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -156,6 +158,11 @@
 		5038D5F9214FB7E400D0D692 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		5038D5FB214FB7EB00D0D692 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		5038D5FD214FB7F000D0D692 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		50A31C0021CD2A4A009BC145 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../opt/MonkeyDev/Frameworks/libsubstrate.dylib; sourceTree = "<group>"; };
+		50C055C421CD257500893F82 /* BHSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHSettingViewController.h; sourceTree = "<group>"; };
+		50C055C621CD259A00893F82 /* BHSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHSettingViewController.m; sourceTree = "<group>"; };
+		5B66E9BE155E5820C1E2FF27 /* Pods-WAUnlimitedSend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAUnlimitedSend.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAUnlimitedSend/Pods-WAUnlimitedSend.debug.xcconfig"; sourceTree = "<group>"; };
+		B662AF759883470F851B4AB9 /* Pods-WAUnlimitedSend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAUnlimitedSend.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAUnlimitedSend/Pods-WAUnlimitedSend.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +188,7 @@
 				5038D565214FB3E300D0D692 /* CoreGraphics.framework in Frameworks */,
 				5038D561214FB3E300D0D692 /* UIKit.framework in Frameworks */,
 				5038D563214FB3E300D0D692 /* Foundation.framework in Frameworks */,
+				2721FAD10624D21867348006 /* libPods-WAUnlimitedSend.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +201,7 @@
 				5038D566214FB3E300D0D692 /* WAUnlimitedSend */,
 				5038D55F214FB3E300D0D692 /* Frameworks */,
 				5038D55E214FB3E300D0D692 /* Products */,
+				684BAF0F4B7F4B425841499E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,6 +216,7 @@
 		5038D55F214FB3E300D0D692 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50A31C0021CD2A4A009BC145 /* libsubstrate.dylib */,
 				5038D5FD214FB7F000D0D692 /* Twitter.framework */,
 				5038D5FB214FB7EB00D0D692 /* Accounts.framework */,
 				5038D5F9214FB7E400D0D692 /* Social.framework */,
@@ -225,6 +235,7 @@
 				5038D560214FB3E300D0D692 /* UIKit.framework */,
 				5038D562214FB3E300D0D692 /* Foundation.framework */,
 				5038D564214FB3E300D0D692 /* CoreGraphics.framework */,
+				47AF52EDF7DD5D4FD96B7ACF /* libPods-WAUnlimitedSend.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -261,9 +272,10 @@
 			isa = PBXGroup;
 			children = (
 				5038D56B214FB3E300D0D692 /* WAUnlimitedSend-Prefix.pch */,
-				5038D5DF214FB6D600D0D692 /* BHTableView.h */,
 				5038D5A0214FB42400D0D692 /* FRPreferences */,
 				5038D578214FB41A00D0D692 /* SCLAlertView */,
+				50C055C421CD257500893F82 /* BHSettingViewController.h */,
+				50C055C621CD259A00893F82 /* BHSettingViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -357,6 +369,15 @@
 			path = FRPreferences;
 			sourceTree = "<group>";
 		};
+		684BAF0F4B7F4B425841499E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B662AF759883470F851B4AB9 /* Pods-WAUnlimitedSend.release.xcconfig */,
+				5B66E9BE155E5820C1E2FF27 /* Pods-WAUnlimitedSend.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -380,11 +401,11 @@
 				5038D592214FB41A00D0D692 /* SCLMacros.h in Headers */,
 				5038D5C2214FB42400D0D692 /* FRPListCell.h in Headers */,
 				5038D5CA214FB42400D0D692 /* FRPDeveloperCell.h in Headers */,
+				50C055C521CD258300893F82 /* BHSettingViewController.h in Headers */,
 				5038D598214FB41A00D0D692 /* SCLAlertViewStyleKit.h in Headers */,
 				5038D594214FB41A00D0D692 /* SCLAlertView.h in Headers */,
 				5038D5CD214FB42400D0D692 /* FRPSelectListTable.h in Headers */,
 				5038D593214FB41A00D0D692 /* UIImage+ImageEffects.h in Headers */,
-				5038D5E0214FB6D600D0D692 /* BHTableView.h in Headers */,
 				5038D59B214FB41A00D0D692 /* SCLAlertViewFramework.h in Headers */,
 				5038D58E214FB41A00D0D692 /* SCLSwitchView.h in Headers */,
 				5038D5C9214FB42400D0D692 /* FRPCell.h in Headers */,
@@ -402,6 +423,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5038D575214FB3E300D0D692 /* Build configuration list for PBXNativeTarget "WAUnlimitedSend" */;
 			buildPhases = (
+				73713486E497CDD244D2003F /* [CP] Check Pods Manifest.lock */,
 				5038D557214FB3E300D0D692 /* ShellScript */,
 				5038D558214FB3E300D0D692 /* Sources */,
 				5038D559214FB3E300D0D692 /* Frameworks */,
@@ -436,6 +458,44 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
+				he,
+				en_AU,
+				ar,
+				el,
+				ja,
+				uk,
+				es_MX,
+				zh_CN,
+				nb,
+				es,
+				da,
+				it,
+				sk,
+				pt_PT,
+				ms,
+				sv,
+				cs,
+				ko,
+				hu,
+				zh_HK,
+				tr,
+				pl,
+				zh_TW,
+				en_GB,
+				vi,
+				ru,
+				fr_CA,
+				fr,
+				fi,
+				id,
+				nl,
+				th,
+				pt,
+				ro,
+				hr,
+				hi,
+				ca,
 			);
 			mainGroup = 5038D552214FB3E200D0D692;
 			productRefGroup = 5038D55E214FB3E300D0D692 /* Products */;
@@ -474,6 +534,24 @@
 			shellPath = /bin/sh;
 			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
 		};
+		73713486E497CDD244D2003F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAUnlimitedSend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -486,6 +564,7 @@
 				5038D56E214FB3E300D0D692 /* WAUnlimitedSend.mm in Sources */,
 				5038D595214FB41A00D0D692 /* SCLAlertViewResponder.m in Sources */,
 				5038D58F214FB41A00D0D692 /* SCLTimerDisplay.m in Sources */,
+				50C055C721CD259A00893F82 /* BHSettingViewController.m in Sources */,
 				5038D5CB214FB42400D0D692 /* FRPSwitchCell.m in Sources */,
 				5038D5D6214FB42400D0D692 /* FRPTextFieldCell.m in Sources */,
 				5038D5CE214FB42400D0D692 /* FRPLinkCell.m in Sources */,
@@ -572,6 +651,7 @@
 		};
 		5038D576214FB3E300D0D692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B662AF759883470F851B4AB9 /* Pods-WAUnlimitedSend.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -591,12 +671,12 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = 192.168.2.138;
+				MonkeyDevDeviceIP = 192.168.1.6;
 				MonkeyDevDevicePassword = 976431A5;
 				MonkeyDevDevicePort = 22;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = WhatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -604,6 +684,7 @@
 		};
 		5038D577214FB3E300D0D692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B66E9BE155E5820C1E2FF27 /* Pods-WAUnlimitedSend.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -623,12 +704,12 @@
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = 192.168.2.138;
+				MonkeyDevDeviceIP = 192.168.1.6;
 				MonkeyDevDevicePassword = 976431A5;
 				MonkeyDevDevicePort = 22;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = WhatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

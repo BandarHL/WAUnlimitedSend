@@ -7,6 +7,7 @@
 //
 
 #import "FRPDeveloperCell.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface FRPDeveloperCell ()
 @property (nonatomic, strong) NSString *url;
